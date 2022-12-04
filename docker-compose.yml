@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  react-app:
+  # -------------------
+  # This is a solved a old issues with react
+  # stding_open: true
+  # tty: true
+  # --------------------
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    # env_file:
+      # - ./.env
+    
+    
